@@ -1,0 +1,12 @@
+### 测试get
+GET http://localhost:3000/?name=1 HTTP/1.1
+
+
+### 测试POST
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "userId": 666,
+    "title": "Learn Deno"
+}
